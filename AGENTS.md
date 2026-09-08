@@ -2,7 +2,8 @@
 
 ## Project
 
-Replace with what the project does and how it is structured.
+Prediction service covering the full ML lifecycle: data, training, serving,
+prediction logging. Scaffolding only at this stage; no model or dataset yet.
 
 ## Commands
 

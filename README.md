@@ -1,11 +1,10 @@
-# Project Template
+# ml-prediction-api
 
-Starting point for opticient projects. Click **Use this template**, then:
+Prediction service covering the full ML lifecycle: data preparation, training,
+serving, and prediction logging.
 
-- Rename `name` in `pyproject.toml`
-- Rewrite this README and the Project section of `AGENTS.md`
-- Pick unused ports in `.env.example`
-- Set the `PR_REVIEWER` repo variable to the other person's username
+Scaffolding only at this stage. There is no model, no dataset, and no
+application logic yet.
 
 ## Setup
 
@@ -26,7 +25,7 @@ checks, secret detection and commit-message rules run before every commit.
 |-------|---------|
 | 5440, 6379 | work stack — do not use |
 | 5433, 6380 | personal shared stack |
-| 5434, 6381 | template defaults — change per project |
+| 5434, 6381 | this project |
 
 ## Commands
 
@@ -93,6 +92,11 @@ generated block is replaced on every run. Project-specific notes go *above* the
 | `secrets-and-public-repos.md` | What must never be committed |
 | `ml-projects.md` | Reproducibility, evaluation, serving, LLM providers |
 | `code-structure.md` | Where code belongs |
+
+## Decisions
+
+`docs/decisions.md` records why each choice was made: model selection, dropped
+features, split strategy. Add an entry when the decision is made, not afterwards.
 
 ## Secrets
 
