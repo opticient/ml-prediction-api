@@ -8,10 +8,11 @@ prediction logging. Scaffolding only at this stage; no model or dataset yet.
 ## Commands
 
 ```sh
-make setup
-make test
-make lint
-make fmt
+uv run pytest
+uv run ruff check .
+uv run ruff format .
+uv run mypy src
+uv run pre-commit run --all-files
 ```
 
 <!-- BEGIN GENERATED RULES -->
