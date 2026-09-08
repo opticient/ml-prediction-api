@@ -3,9 +3,9 @@ requires = ["setuptools>=46.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project-template"
+name = "ml-prediction-api"
 version = "0.1.0"
-description = "Replace with a one-line description."
+description = "Prediction service covering the full ML lifecycle"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115",
