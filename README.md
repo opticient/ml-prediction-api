@@ -92,9 +92,10 @@ git switch -c as/feat/thing
 git push
 ```
 
-Pushing a branch opens one PR to `staging` automatically. If a PR is already
-open for that branch, later pushes do not open another. The `staging` to `main`
-release PR is opened by hand.
+Pushing a branch opens one PR to `staging` automatically and assigns it to you.
+If a PR is already open for that branch, later pushes do not open another.
+Reviewers are not requested automatically; add one when you want a review. The
+`staging` to `main` release PR is opened by hand.
 
 ## Commits
 
